@@ -11,6 +11,7 @@
 @interface LHCalendarCollectionViewCell : UICollectionViewCell
 @property (nonatomic,strong)  UILabel *day_lab;//显示公历
 @property (nonatomic,strong)  UILabel *day_title;//显示
-@property (nonatomic,strong) UIImageView *imgview;
+@property (nonatomic,strong)  UIImageView *imgview;
+@property (nonatomic,strong)  UILabel     *priceLabel;
 -(void)configWithModel:(LHCalendarDayModel *)model withChooseDay:(LHCalendarDayModel *)chooseDay;
 @end

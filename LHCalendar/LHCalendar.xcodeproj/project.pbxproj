@@ -21,7 +21,6 @@
 		EB66F3091E2320FE0084A96B /* LHCalendarReusableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66F3081E2320FE0084A96B /* LHCalendarReusableHeaderView.m */; };
 		EB66F30C1E2321230084A96B /* LHCalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66F30B1E2321230084A96B /* LHCalendarViewLayout.m */; };
 		EB66F30F1E2321460084A96B /* LHCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66F30E1E2321460084A96B /* LHCalendarViewController.m */; };
-		EB66F3111E2326FA0084A96B /* 屏幕快照 2017-01-09 上午10.00.48.png in Resources */ = {isa = PBXBuildFile; fileRef = EB66F3101E2326FA0084A96B /* 屏幕快照 2017-01-09 上午10.00.48.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		EB66F30B1E2321230084A96B /* LHCalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCalendarViewLayout.m; sourceTree = "<group>"; };
 		EB66F30D1E2321460084A96B /* LHCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCalendarViewController.h; sourceTree = "<group>"; };
 		EB66F30E1E2321460084A96B /* LHCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCalendarViewController.m; sourceTree = "<group>"; };
-		EB66F3101E2326FA0084A96B /* 屏幕快照 2017-01-09 上午10.00.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-01-09 上午10.00.48.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +165,6 @@
 		EB66F2FC1E231FFA0084A96B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EB66F3101E2326FA0084A96B /* 屏幕快照 2017-01-09 上午10.00.48.png */,
 				EB66F2FE1E2320860084A96B /* LHCalendarDateModel.h */,
 				EB66F2FF1E2320860084A96B /* LHCalendarDateModel.m */,
 				EB66F3011E23209C0084A96B /* LHCalendarDayModel.h */,
@@ -296,7 +293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB66F3111E2326FA0084A96B /* 屏幕快照 2017-01-09 上午10.00.48.png in Resources */,
 				EB66F2D91E231FD00084A96B /* LaunchScreen.storyboard in Resources */,
 				EB66F2D61E231FD00084A96B /* Assets.xcassets in Resources */,
 				EB66F2D41E231FD00084A96B /* Main.storyboard in Resources */,
@@ -566,6 +562,7 @@
 				EB66F2F51E231FD00084A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB66F2F61E231FD00084A96B /* Build configuration list for PBXNativeTarget "LHCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +571,7 @@
 				EB66F2F81E231FD00084A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB66F2F91E231FD00084A96B /* Build configuration list for PBXNativeTarget "LHCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +580,7 @@
 				EB66F2FB1E231FD00084A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

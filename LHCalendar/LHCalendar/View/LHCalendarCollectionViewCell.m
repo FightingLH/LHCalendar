@@ -38,6 +38,14 @@
     _day_title.textColor = [self colorWithHex:0xffffffff];
     _day_title.textAlignment = NSTextAlignmentCenter;
     [self addSubview:_day_title];
+    
+    //价格
+    _priceLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(_day_lab.frame),  self.bounds.size.width,  10)];
+    _priceLabel.font = [UIFont systemFontOfSize:8];
+    _priceLabel.textColor = [self colorWithHex:0xffffffff];
+    _priceLabel.textAlignment = NSTextAlignmentCenter;
+    _priceLabel.text = @"¥761";
+    [self addSubview:_priceLabel];
 }
 
 
@@ -71,7 +79,6 @@
     }
     if (model.isWeekend) {
         //        _day_lab.textColor = COLOR_WITH_HEX(0xffffff19);
-        
     }
     
 }
